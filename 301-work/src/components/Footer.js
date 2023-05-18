@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
+
 export class Footer extends Component {
   render() {
     return(
-      <>
-      <p>myPosts</p>
-      </>
+      <div>
+      <p>Created by Jane Doe</p>
+      </div>
+
     )
   }
 }

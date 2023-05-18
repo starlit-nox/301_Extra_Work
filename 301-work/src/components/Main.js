@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import Posts from './Posts';
+
 export class Main extends Component {
   render() {
     return(
       <>
-      <h1> Test </h1>
+
+<Posts/>
+
       </>
     )
   }

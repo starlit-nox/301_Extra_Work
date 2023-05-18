@@ -1,18 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import Posts from './components/Posts'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <Main />
+
       </main>
       <Footer />
     </div>
